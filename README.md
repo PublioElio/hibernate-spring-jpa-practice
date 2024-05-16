@@ -1,0 +1,2 @@
+# hibernate-spring-jpa-practice
+ The purpose of this repository is to host a variety of projects for practicing and mastering Spring Boot, JPA, and Hibernate. It includes a diverse set of examples and exercises designed to enhance your skills in building robust, efficient, and scalable Java applications. Whether you're a beginner looking to get started or an experienced developer aiming to deepen your knowledge, this repository offers valuable resources and hands-on experience to help you achieve your goals.
