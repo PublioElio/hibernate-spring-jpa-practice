@@ -37,6 +37,4 @@ public class SpringBootJpaTestSlice {
         Long countBefore = bookRepository.count();
         assertThat(countBefore).isEqualTo(3);
     }
-
-
 }
