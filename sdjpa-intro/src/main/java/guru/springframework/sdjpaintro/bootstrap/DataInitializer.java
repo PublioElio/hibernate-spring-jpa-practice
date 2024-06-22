@@ -20,12 +20,6 @@ public class DataInitializer implements CommandLineRunner {
         this.bookRepository = bookRepository;
     }
 
-    /**
-     * This method is called when the application is started.
-     * It will create two Book objects and save them to the database.
-     * It will then log the Book Id and Book Title to the console.
-     * @param args
-     */
     @Override
     public void run(String... args) {
         bookRepository.deleteAll();
