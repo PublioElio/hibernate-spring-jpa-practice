@@ -13,14 +13,16 @@ public class Book {
     private String title;
     private String publisher;
     private String isbn;
+    private Long authorId;
 
     public Book() {
     }
 
-    public Book(String title, String publisher, String isbn) {
+    public Book(String title, String publisher, String isbn, Long authorId) {
         this.title = title;
         this.publisher = publisher;
         this.isbn = isbn;
+        this.authorId = authorId;
     }
 
     @Override
@@ -36,6 +38,14 @@ public class Book {
     @Override
     public int hashCode() {
         return 0;
+    }
+
+    public Long getAuthorId() {
+        return authorId;
+    }
+
+    public void setAuthorId(Long authorId) {
+        this.authorId = authorId;
     }
 
     public String getTitle() {
